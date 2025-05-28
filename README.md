@@ -12,3 +12,6 @@ A. Hero Section
 - Pixabay
 - Jean van der Meulen
 - Pixasquare Studio
+
+Learned object-fit: cover because evening the cards were difficult.
+https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
