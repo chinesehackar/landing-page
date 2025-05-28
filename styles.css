@@ -37,7 +37,7 @@ ul {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    padding: 80px 80px;
+    padding: 80px;
     gap: 40px;
 }
 
@@ -80,7 +80,7 @@ button {
 /* benefits-section styling */
 
 .benefits-section {
-    padding: 80px 80px;
+    padding: 80px;
     text-align: center;
 }
 
@@ -109,6 +109,52 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+/* quote-section styling */
+
+.quote-section {
+    padding: 80px;
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* cta-section styling */
+
+.cta-section {
+    padding: 80px;
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 16px;
+}
+
+button.secondary {
+    border: 2px solid white;
+}
+
+p.small-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 /* adjust list and ancor styling */
