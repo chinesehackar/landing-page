@@ -15,3 +15,6 @@ A. Hero Section
 
 Learned object-fit: cover because evening the cards were difficult.
 https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+
+Learned white-space: nowrap to remove text-wrap in the secondary button.
+https://www.w3schools.com/css/tryit.asp?filename=trycss_text_white-space
