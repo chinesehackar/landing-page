@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 16px;
+    padding: 24px 120px;
     align-items: center;
 }
 
@@ -37,7 +37,7 @@ ul {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    padding: 80px;
+    padding: 120px;
     gap: 40px;
 }
 
@@ -80,7 +80,7 @@ button {
 /* benefits-section styling */
 
 .benefits-section {
-    padding: 80px;
+    padding: 120px;
     text-align: center;
 }
 
@@ -95,17 +95,18 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .card img {
-    height: 240px;
+    height: 260px;
     object-fit: cover;
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
 
 .card {
-    width: 240px;
+    width: 260px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -119,7 +120,7 @@ h2 {
 /* quote-section styling */
 
 .quote-section {
-    padding: 80px;
+    padding: 120px;
     background-color: #E5E7EB;
 }
 
@@ -139,7 +140,7 @@ blockquote {
 /* cta-section styling */
 
 .cta-section {
-    padding: 80px;
+    padding: 120px;
 }
 
 .cta-wrapper {
@@ -154,6 +155,7 @@ blockquote {
 
 button.secondary {
     border: 2px solid white;
+    white-space: nowrap;
 }
 
 p.small-header {
