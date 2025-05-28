@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.nav-section, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+.nav-section {
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex; 
+    gap: 16px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
