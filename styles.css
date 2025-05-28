@@ -8,6 +8,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* nav-section and footer styling */
 .nav-section, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -29,6 +30,56 @@ ul {
     display: flex; 
     gap: 16px;
 }
+
+/* hero styling */
+.hero-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    padding: 80px 80px;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.hero-content p, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content p {
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-image {
+    height: auto;
+    width: 500px;
+    flex: 1;
+}
+
+/* benefits-section styling */
+
+/* adjust list and ancor styling */
 
 a {
     color: #F9FAF8;
